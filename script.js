@@ -27,9 +27,8 @@ buton.addEventListener("click",function(){
 const anCurent = new Date().getFullYear();
 const varsta = parseInt(annastere.textContent);
 annastere.onmouseover = function(){
-	annastere.textContent = varsta + anCurent "ani";
+	annastere.textContent = varsta + anCurent + "ani";
 }
-
 annastere.onmouseout = function(){
-	annastere.textContent = anCurent - varsta "ani";
+	annastere.textContent = anCurent - varsta + "ani";
 }
