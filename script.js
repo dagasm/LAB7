@@ -35,6 +35,9 @@ annastere.onmouseout = function(){
 }
 
 //buton2=addEventListener("dblclick",function(){
+//	const imagini = ["poza1.jpg","poza2.jpg","poza3.jpg"];
+//	const index = 0;
 //	setInterval(()=>{
+//	document.getElementById("id_poza").src=imagini[index];
 //		
 //	},3000);
