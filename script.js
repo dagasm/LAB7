@@ -6,6 +6,7 @@ const educatie = document.getElementById("educatie");
 const pasiuni = document.getElementById("pasiuni");
 const pagina = document.getElementById("pagina");
 const annastere = document.getElementById("annastere");
+//const buton2 = document.getElementById("id_buton");
 
 buton.addEventListener("click",function(){
 	
@@ -32,3 +33,8 @@ annastere.onmouseover = function(){
 annastere.onmouseout = function(){
 	annastere.textContent = anCurent - varsta + "ani";
 }
+
+//buton2=addEventListener("dblclick",function(){
+//	setInterval(()=>{
+//		
+//	},3000);
